@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+/* pp */
+}
+
+@font-face {
+  font-family: 'popins';
+  src: url(./assets/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: 'Poppins',sans-serif;
+
+}
+
+
+/* Style font pada layar desktop */
+
+
+
+/* Style font pada layar tablet */
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 80%;
+    /* ... */
+  }
+}
+
+/* Style font pada layar smartphone */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 60%;
+    /* ... */
+  }
+}
+
+/* Style font pada layar smartphone kecil */
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 50%;
+    /* ... */
+  }
+}
